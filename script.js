@@ -68,9 +68,9 @@ class Stopwatch extends React.Component {
         return (
             <div className="watch">
                 <div className="controls">
-                    <div className="button" onClick = { () => this.start() }><p className="button_p">START</p></div>
-                    <div className="button" onClick = { () => this.stop() }><p className="button_p">STOP</p></div>
-                    <div className="button" onClick = { () => this.reset()} ><p className="button_p">RESET</p></div>
+                    <button className="button" onClick = { () => this.start() }><span className="button_p">START</span></button>
+                    <button className="button" onClick = { () => this.stop() }><span className="button_p">STOP</span></button>
+                    <button className="button" onClick = { () => this.reset()}><span className="button_p">RESET</span></button>
                 </div>
 		        <div className={"stopwatch"}>{this.format()}</div>
             </div>

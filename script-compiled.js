@@ -101,34 +101,34 @@ var Stopwatch = function (_React$Component) {
                     "div",
                     { className: "controls" },
                     React.createElement(
-                        "div",
+                        "button",
                         { className: "button", onClick: function onClick() {
                                 return _this3.start();
                             } },
                         React.createElement(
-                            "p",
+                            "span",
                             { className: "button_p" },
                             "START"
                         )
                     ),
                     React.createElement(
-                        "div",
+                        "button",
                         { className: "button", onClick: function onClick() {
                                 return _this3.stop();
                             } },
                         React.createElement(
-                            "p",
+                            "span",
                             { className: "button_p" },
                             "STOP"
                         )
                     ),
                     React.createElement(
-                        "div",
+                        "button",
                         { className: "button", onClick: function onClick() {
                                 return _this3.reset();
                             } },
                         React.createElement(
-                            "p",
+                            "span",
                             { className: "button_p" },
                             "RESET"
                         )
