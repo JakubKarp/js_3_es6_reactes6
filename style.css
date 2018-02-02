@@ -1,0 +1,57 @@
+body {
+	background-image: url(watch.JPG);
+	background-position: 0% 5%;
+}
+
+.watch {
+	width: 600px;
+	height: 200px;
+	margin: 50px auto;
+	border: 1px solid rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+	box-shadow: 5px 5px #909090;
+	text-align: center
+}
+
+.controls {
+
+	margin: 20px auto;
+
+
+}
+
+.button {
+	display: inline-flex;
+	width: 100px;
+	height: 30px;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-right: 30px;
+	color: rgba(255, 255, 255, 0.9);
+	border: 1px solid rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer; 
+
+}
+
+.button:last-of-type {
+	margin-right: 0px
+}
+
+.button_p {
+	margin: 0 auto
+}
+
+
+.stopwatch {
+	margin: 20px auto;
+	font-size: 4em;
+	font-weight: 900;
+	color: rgba(255, 255, 255, 0.9);
+	border: 1px solid rgba(255, 255, 255, 0.9);
+	padding: 5px;
+	width: 410px;
+	border-radius: 5px;
+}
